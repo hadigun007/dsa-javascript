@@ -4,7 +4,17 @@ This repository contains implementations of various algorithms in JavaScript. Ea
 
 ## Algorithms Implemented
 
-### Searching Algorithms
+### 1. Sorting Algorithms
+1. **Bubble Sort** - O(n²) - Best for small datasets or nearly sorted data.
+2. **Selection Sort** - O(n²) - Useful when memory writes are costly.
+3. **Insertion Sort** - O(n²), but O(n) for nearly sorted data - Efficient for small or nearly sorted datasets.
+4. **Merge Sort** - O(n log n) -  Large datasets, stable sorting.
+5. **Quick Sort** - O(n log n), but O(n²) in worst case - In-place sorting, general-purpose sorting.
+6. **Heap Sort** - O(n log n) - When memory writes must be minimized.
+7. **Counting Sort** -O(n + k) - When numbers have a small range.
+8. **Radix Sort** -O(nk) - When sorting numbers with fixed digit lengths.
+
+### 2. Searching Algorithms
 1. **Linear Search** - O(n) - Works on unsorted arrays
 2. **Binary Search** - O(log n) - Works only on sorted arrays
    - Iterative and Recursive implementations
