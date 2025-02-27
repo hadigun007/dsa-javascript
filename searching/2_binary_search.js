@@ -12,3 +12,4 @@ function binary_search(arr, left, right, target){
 
 let arr = [10, 20, 30, 40, 50, 60];
 console.log(binary_search(arr, 0, arr.length - 1, 40)); 
+
